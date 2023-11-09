@@ -1,11 +1,6 @@
+# About
 MovieMoon is a React based movie website that allows users to search for movies, TV shows, and people.
 Used [The Movie DB](https://www.themoviedb.org/) API, functional components, Typescript, Hooks, Redux, [Bootstrap](https://getbootstrap.com/), etc.
-
-![image1](./screenshots/moviemoon1.png)
-![image2](./screenshots/moviemoon2.png)
-![image3](./screenshots/moviemoon3.png)
-![image4](./screenshots/moviemoon4.png)
-![image5](./screenshots/moviemoon5.png)
 
 # Features
 - Search Movies, TV Shows, and People : users can search for movies, TV shows, and people
@@ -16,7 +11,23 @@ Used [The Movie DB](https://www.themoviedb.org/) API, functional components, Typ
 - People Details : users can view detailed information about each people biography and filmography
 - Rating Number : users can view the number of rating from each movie and TV show
 
-# Installation and Run from local
+# Screenshots
+1. Homepage
+![image1](./screenshots/moviemoon1.png)
+
+2. Search results
+![image2](./screenshots/moviemoon2.png)
+
+3. Movie details
+![image3](./screenshots/moviemoon3.png)
+
+4. People details 
+![image4](./screenshots/moviemoon4.png)
+
+5. Cast list
+![image5](./screenshots/moviemoon5.png)
+
+# Installation and How to Use
 
 ## Step 1: Download and Extract the Code
 
@@ -33,11 +44,11 @@ Before starting the website, you will need to obtain the TMDB Movies API key.
 - In the settings, select "API" and generate an API key.
 - Put the generated API key to variable `REACT_APP_TMDB_API_KEY` and add to your `.env` file.
 
-## Step 3: Package installation
+## Step 3: Package Installation
 
 - Run `yarn` or `yarn install`
 
-## Step 3: Run app
+## Step 3: Run the App
 
 - Run `yarn start` to run in dev mode
 - Run `yarn build` to run in prod mode
