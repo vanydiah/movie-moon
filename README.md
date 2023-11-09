@@ -1,18 +1,45 @@
-Another updgraded React application movie search engine with [The Movie DB](https://www.themoviedb.org/) api.
-Used functional components, Typescript, Hooks, Redux (Toolkit) etc. All the packages are used are updated versions.
+MovieMoon is a React based movie website that allows users to search for movies, TV shows, and people.
+Used [The Movie DB](https://www.themoviedb.org/) API, functional components, Typescript, Hooks, Redux, [Bootstrap](https://getbootstrap.com/), etc.
 
-React Movie Search App with [Bootstrap 5](https://getbootstrap.com/)
+![image1](./screenshots/moviemoon1.png)
+![image2](./screenshots/moviemoon2.png)
+![image3](./screenshots/moviemoon3.png)
+![image4](./screenshots/moviemoon4.png)
+![image5](./screenshots/moviemoon5.png)
 
-Dependencies
+# Features
+- Search Movies, TV Shows, and People : users can search for movies, TV shows, and people
+- Popular Movies and TV Shows : displays the list of popular movies and TV shows
+- Trending Movies: displays the list of trending movies and TV shows
+- Movie and TV Show Details: users can view detailed information about each movie and TV show
+- Cast list: displays casts for each movie and TV show
+- People Details : users can view detailed information about each people biography and filmography
+- Rating Number : users can view the number of rating from each movie and TV show
 
-* [Create React App] - A JavaScript library for building user interfaces
-* [Typescript] - JavaScript with syntax for types
-* [React Router DOM V6] - DOM bindings for React Router.
-* [Redux Toolkit] - State management with Redux Toolkit.
+# Installation and Run from local
 
+## Step 1: Download and Extract the Code
 
-   [Create React App]: <https://reactjs.org/>
-   [Typescript]: <https://www.typescriptlang.org/>
-   [React Router DOM V6]: <https://reactrouter.com/docs/en/v6>
-   [Redux Toolkit]: <https://redux-toolkit.js.org/>
+Firstly, download the entire website code and extract the ZIP file to a folder on your local system.
+
+## Step 2: Obtain the TMDB Movies API Key
+
+Before starting the website, you will need to obtain the TMDB Movies API key. 
+
+### ▶️ Get TMDB API Key 
+
+- Go to https://www.themoviedb.org/ and log in.
+- Click on your user profile picture in the navigation bar, and select "Settings".
+- In the settings, select "API" and generate an API key.
+- Put the generated API key to variable `REACT_APP_TMDB_API_KEY` and add to your `.env` file.
+
+## Step 3: Package installation
+
+- Run `yarn` or `yarn install`
+
+## Step 3: Run app
+
+- Run `yarn start` to run in dev mode
+- Run `yarn build` to run in prod mode
+- Run `yarn test` for testing
 
