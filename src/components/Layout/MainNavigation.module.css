@@ -1,0 +1,62 @@
+.navbar {
+  background-color: #060612;
+}
+.navbar nav {
+  background-color: #060612;
+}
+.navbar h3, .navbar h4 {
+  font-weight: 800;
+}
+.navbar h3 a,
+.navbar h4 a {
+  background: linear-gradient(to right, #8400e1 0%, #c60098 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 2em;
+}
+.navbar input {
+  background: transparent !important;
+  color: #c60098 !important;
+  border-color: #8400e1 !important;
+}
+.navbar select {
+  background-color: transparent !important;
+  color: #8400e1;
+  border-radius: 50px 0 0 50px !important;
+  border-color: #8400e1 !important;
+}
+.navbar button {
+  color: #c60098;
+  border-radius: 0 50px 50px 0 !important;
+  border-color: #8400e1 !important;
+}
+
+ul.navbar-nav > li > a {
+  color: rgb(231, 241, 250);
+}
+.navbar-nav ul li .dropdown-item:focus,
+.navbar-nav ul li a:active {
+  color: #c60098;
+  background-color: #060612;
+}
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+  color: #c60098;
+}
+ul.navbar-nav > li > ul > li > a:active {
+  color: #c60098;
+  background-color: #060612;
+}
+
+ul.navbar-nav li a::after {
+  content: none !important;
+}
+.navbar-nav ul {
+  margin-top: 0.7rem !important;
+}
+
+.navActive > a {
+  font-weight: 500;
+  color: #c60098 !important;
+}

@@ -1,0 +1,145 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(40,43,76,1) 35%, rgba(48,40,76,1) 100%);
+  color: #eeeeee;
+}
+
+.bd-content {
+  min-height: 76vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn{
+  color: #eeeeee;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+.release i {
+  padding-right: 5px;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler i {
+  color: #8400e1 !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: aliceblue;
+  box-shadow: none;
+}
+
+.text-white a {
+  color: white !important;
+}
+.nav-footer {
+  background-color: rgba(3, 37, 65, 1);
+}
+a.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  transition: height 0ms 0ms, opacity 600ms 0ms;
+}
+@media (max-width: 576px) {
+  .socialinks {
+    width: 100%;
+  }
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.single-wrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.single-column {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: aliceblue;
+}
+
+.single-column .inner-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.single-column .inner-content span.header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.single-column .inner-content div {
+  padding-left: 20px;
+}
+.single-column .inner-content div h2 a {
+  color: aliceblue;
+}
+.single-column .inner-content div h6 a {
+  color: rgba(240, 248, 255, 0.721);
+}
+.single-column .inner-content div h2 .release_year {
+  color: rgb(162, 173, 183);
+}
+.single-column .inner-content div h2 a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.single-column .inner-content div h6 a:hover {
+  color: rgba(219, 214, 234, 0.7);
+}
+
+.series-cast span {
+  color: #757575;
+}
+
+.react-horizontal-scrolling-menu--item {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar-thumb {
+  background-color: #060612;
+  border-radius: 50px;
+}
+
+.card img{
+  transform: scale(1);
+  transition: transform 1s ease;
+}
+.card:hover img{
+  transform: scale(1.1)
+}

@@ -1,0 +1,72 @@
+.cardItem {
+  margin: 0 12px;
+  min-width: 200px;
+  width: 100%;
+  /* max-width: 200px; */
+}
+.cardItemNoBorder {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cardImageW150 {
+  /* max-width: 200px; */
+}
+.cardImageW250 {
+  width: 100%;
+  /* max-width: 200px; */
+  /* max-height: 320px; */
+}
+
+.cardBody {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(6,6,18,.9) 0%, rgba(6,6,18,.7) 45%, rgba(48,40,76,0) 100%);
+  padding-top: 5rem;
+}
+.cardBody h6,
+.cardBody p {
+  font-size: 0.9rem;
+}
+.cardBody p {
+  color: #eeeeee;
+}
+.cardBody small{
+  color: #eeeeee;
+  font-size: 0.7rem;
+}
+.cardBody h6 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.small {
+  font-size: 45px;
+  /* margin: -15px 0 0 10px !important;
+  background-color: #000; */
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* .small::after {
+  background-color: #000;
+} */
+.small span {
+  color: #fff;
+  font-size: 0.3em;
+  line-height: 3.4em;
+  width: 3.3em;
+  font-weight: 700;
+}
+
+.no-image {
+  width: 100%;
+  padding: 20px 0;
+}
