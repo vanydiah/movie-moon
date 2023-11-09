@@ -25,8 +25,8 @@ const Footer = () => {
               <span className="navbar-text">
                 <small>
                   Data provided by&nbsp;
-                  <a href="https://www.themoviedb.org/" style={{textDecoration: 'none', color: '#a29f9f'}}>TMDb</a>&nbsp;&nbsp;|
-                  &nbsp;&nbsp;Made with ♥ by <a href="https://vanydiah.carrd.co" style={{textDecoration: 'none', color: '#a29f9f'}}>Vany</a>
+                  <a href="https://www.themoviedb.org/" target="_blank" style={{textDecoration: 'none', color: '#a29f9f'}}>TMDb</a>&nbsp;&nbsp;|
+                  &nbsp;&nbsp;Made with ♥ by <a href="https://vanydiah.carrd.co" target="_blank" style={{textDecoration: 'none', color: '#a29f9f'}}>Vany</a>
                 </small>
               </span>
             </li>
