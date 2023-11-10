@@ -1,6 +1,5 @@
 # Demo
 <b>Visit [https://movie-moon.vercel.app/](https://movie-moon.vercel.app/)</b>
-<br /><br /><small>Hosted by [Vercel](https://vercel.com//)</small>
 
 # About
 MovieMoon is a React based movie website that allows users to search for movies, TV shows, and people.
